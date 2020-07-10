@@ -1,0 +1,15 @@
+2020-05-26 12:54:24,580 - utils - INFO - Running Ours(ours.ini)...
+2020-05-26 12:54:24,581 - utils - INFO - train: learning_rate = 0.001000
+lr_decay_rate = 0.0003173
+optimizer = Adam
+2020-05-26 12:54:24,581 - utils - INFO - network: drop = 0.401
+dim = [318, 512, 512, 256, 256, 1]
+act = SELU
+l2 = 0.05
+2020-05-26 12:54:36,923 - utils - INFO - The best valid c-index: 0.7217664906169232
+2020-05-26 12:54:36,923 - utils - INFO - 
+2020-05-26 12:54:36,923 - utils - INFO - +----------+
+|   Ours   |
++----------+
+| 0.721766 |
++----------+
